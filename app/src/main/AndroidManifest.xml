@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ivandeveloper.application2"
+    android:versionCode="3"
+    android:versionName="1.2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/third_base_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/third_base_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.PlayerDetailsActivty"></activity>
+        <activity
+            android:name=".View.FullGameDetailsActivity"
+            android:parentActivityName=".View.GameActivity" />
+        <activity
+            android:name=".View.StatisticsActivity"
+            android:parentActivityName=".View.GameActivity" />
+        <activity
+            android:name=".View.GameActivity"
+            android:parentActivityName=".View.Listings" />
+        <activity
+            android:name=".View.Listings"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".View.Dashboard" />
+        <activity android:name=".View.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

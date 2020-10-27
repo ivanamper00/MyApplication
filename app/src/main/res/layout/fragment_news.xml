@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_news"
+    android:layout_marginTop="60dp"
+    tools:context=".View.Fragment.NewsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:text="MLB Updates"
+            android:elevation="10dp"
+            />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/web_view"
+            />
+<!--        <Button-->
+<!--            android:id="@+id/mlb_updates"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:background="@color/colorAccent"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:text="For More Updates Visit the Link Here: \n https://www.mlb.com/"-->
+<!--            android:elevation="10dp"/>-->
+
+<!--    <com.synnapps.carouselview.CarouselView-->
+<!--        android:id="@+id/carousel"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        app:pageColor="#CC000000"-->
+<!--        app:fillColor="#4DFFFFFF"-->
+<!--        app:strokeColor="#CC000000"-->
+<!--        app:radius="4dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        app:slideInterval="5000"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:textSize="28sp"-->
+<!--        android:text="Marlins back in playoffs for 1st time since '03"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:textSize="18sp"-->
+<!--            android:text="The Marlins and their frustrated fan base have waited 17 years to return to the postseason. On Friday night at Yankee Stadium, they were rewarded for their patience in extra innings.-->
+
+<!--Jesús Aguilar lifted a sacrifice fly in the 10th inning that carried the Marlins to a 4-3 victory over the Yankees and secured the franchise’s first playoff berth since winning the World Series in 2003"/>-->
+    </RelativeLayout>
+</FrameLayout>
